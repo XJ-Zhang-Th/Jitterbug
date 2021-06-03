@@ -8,7 +8,7 @@ Jitterbug
 
 [前往GitHub Releases](https://github.com/osy/Jitterbug/releases)
 
-##  编译安装(Building) Jitterbug
+##  编译安装 Jitterbug
 
 1. 确保你克隆了所有子模块  （Make sure you cloned all submodules with) `git submodule update --init --recursive`
 2. 打开`Jitterbug.xcodeproj` 并将bundle id 更改为注册到您的Apple Developer 帐户的唯一值。
@@ -48,7 +48,7 @@ Jitterbug
 
 在插入设备的情况下运行`jitterbugpair`以生成`YOUR-UDID.mobiledevicepairing`。 您需要启用密码并且设备应该被解锁。 第一次运行该工具时，您将收到输入密码的提示。 输入并保持屏幕开启并解锁，然后再次运行该工具以生成配对。
 
-## 开发者形象 (Developer Image)
+## 开发者镜像 (Developer Image)
 
 前往 [此处][3] 并下载与目标设备最接近的 iOS 版本对应的 ZIP文件。 解压下载，你应该得到 `DeveloperDiskImage.dmg` 和 `DeveloperDiskImage.dmg.signature`。
 
